@@ -177,7 +177,6 @@ const FRENCH = {
   "REVIEWS — MOCKUP": "AVIS — MAQUETTE",
   "Kind words,": "De jolis mots,",
   "in the making.": "à venir.",
-  "Illustrative review mockups only. Names and quotes are examples, not real customer testimonials.": "Maquettes d'avis à titre indicatif. Les noms et les citations sont des exemples, pas de vrais témoignages clients.",
   "A lovely addition to my evening routine.": "Un joli complément à ma routine du soir.",
   "The scent is so comforting, and the bottle is easy to keep in my bag.": "Le parfum est très agréable et le flacon se glisse facilement dans mon sac.",
   "I enjoyed discovering these Thai beauty products.": "J'ai aimé découvrir ces produits de beauté thaïlandais.",
