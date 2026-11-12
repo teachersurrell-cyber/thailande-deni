@@ -188,14 +188,14 @@ const FRENCH = {
   "Coming soon": "Bientôt",
   "Contact details": "Coordonnées",
   "Thaïlande Deni brand image with Thai-inspired artwork": "Visuel de Thaïlande Deni avec une illustration inspirée de la Thaïlande",
-  "Founded by Malian entrepreneur Ms. Coumba Diawara": "Fondée par l'entrepreneure malienne Mme Coumba Diawara",
+  "Founded by Malian entrepreneur Miss Coumba Diawara": "Fondée par l'entrepreneure malienne Mlle Coumba Diawara",
   "5 out of 5 stars": "5 étoiles sur 5",
   "Discover Thaïlande Deni Huile Jaune": "Découvrir Huile Jaune de Thaïlande Deni",
   "Thaïlande Deni Huile Jaune product poster, showing the golden 15 ml bottle and its ingredients": "Affiche du produit Huile Jaune de Thaïlande Deni, avec le flacon doré de 15 ml et ses ingrédients",
   "Thaïlande Deni Huile Jaune, golden massage oil in a 15 ml dropper bottle": "Huile de massage dorée Huile Jaune de Thaïlande Deni, dans un flacon compte-gouttes de 15 ml",
   "Thai beauty, skincare and wellness finds, thoughtfully selected for your routine.": "Des produits thaïlandais de beauté, de soin et de bien-être, choisis avec soin pour votre routine.",
   Explore: "Découvrir",
-  "Shop all products": "Tous les produits",
+  "Shop all products": "Voir tous les produits",
   "Featured product": "Produit à la une",
   "Need a hand?": "Besoin d'aide ?",
   "Get in touch": "Nous contacter",
@@ -232,6 +232,12 @@ const FRENCH = {
   "& everyday wellness.": "et bien-être au quotidien.",
   "From skincare and body care to herbal teas and wellness finds, explore a collection inspired by the products and rituals of Thailand.": "Des soins du visage et du corps aux tisanes et produits bien-être, découvrez une sélection inspirée des produits et rituels thaïlandais.",
   "Explore the collection": "Découvrir la collection",
+  "A FEW THINGS WE LOVE": "QUELQUES COUPS DE CŒUR",
+  "Explore the": "Découvrez la",
+  "collection.": "collection.",
+  "Show previous products": "Afficher les produits précédents",
+  "Show next products": "Afficher les produits suivants",
+  "Product gallery": "Galerie de produits",
   "A BOTANICAL-INSPIRED BLEND": "UN MÉLANGE AUX INSPIRATIONS BOTANIQUES",
   "Herbal notes.": "Des notes herbacées.",
   "Golden moments.": "Des instants dorés.",
@@ -358,9 +364,9 @@ const FRENCH = {
   "THE THAÏLANDE DENI STORY": "L'HISTOIRE DE THAÏLANDE DENI",
   "A Malian founder.": "Une fondatrice malienne.",
   "A Thai discovery.": "Des découvertes thaïlandaises.",
-  "Thaïlande Deni was started by Ms. Coumba Diawara, a Malian businesswoman and entrepreneur. Built on her interest in Thai beauty and wellness, the shop brings a carefully selected range of skincare, body care, teas and wellness finds to customers in Mali and beyond.": "Thaïlande Deni a été créée par Mme Coumba Diawara, femme d'affaires et entrepreneure malienne. Portée par son intérêt pour la beauté et le bien-être thaïlandais, la boutique propose une sélection de soins pour la peau et le corps, de thés et de produits bien-être aux clients du Mali et d'ailleurs.",
+  "Thaïlande Deni was started by Miss Coumba Diawara, a Malian businesswoman and entrepreneur. Built on her interest in Thai beauty and wellness, the shop brings a carefully selected range of skincare, body care, teas and wellness finds to customers in Mali and beyond.": "Thaïlande Deni a été créée par Mlle Coumba Diawara, femme d'affaires et entrepreneure malienne. Portée par son intérêt pour la beauté et le bien-être thaïlandais, la boutique propose une sélection de soins pour la peau et le corps, de thés et de produits bien-être aux clients du Mali et d'ailleurs.",
   "Founded in Mali": "Fondée au Mali",
-  "Founded by Malian entrepreneur Ms. Coumba Diawara, Thaïlande Deni connects customers with beauty and wellness products from Thailand.": "Fondée par l'entrepreneure malienne Mme Coumba Diawara, Thaïlande Deni fait découvrir aux clients des produits de beauté et de bien-être venus de Thaïlande.",
+  "Founded by Malian entrepreneur Miss Coumba Diawara, Thaïlande Deni connects customers with beauty and wellness products from Thailand.": "Fondée par l'entrepreneure malienne Mlle Coumba Diawara, Thaïlande Deni fait découvrir aux clients des produits de beauté et de bien-être venus de Thaïlande.",
   "Inspired by Thailand": "Inspirée par la Thaïlande",
   "Discover a considered selection of Thai skincare, body care, herbal teas and wellness finds for your everyday routine.": "Découvrez une sélection soignée de soins thaïlandais pour la peau et le corps, de tisanes et de produits bien-être pour votre quotidien.",
   "Know what you use": "Sachez ce que vous utilisez",
@@ -390,9 +396,9 @@ const FRENCH = {
   "Review your Thaïlande Deni order.": "Consultez votre commande Thaïlande Deni.",
   "Get in touch with Thaïlande Deni about Thai beauty products and your order.": "Contactez Thaïlande Deni au sujet des produits de beauté thaïlandais et de votre commande.",
   "Explore product details from Thaïlande Deni's Thai beauty, skincare and wellness collection.": "Découvrez les détails des produits de beauté, de soin et de bien-être thaïlandais de Thaïlande Deni.",
-  "Meet Ms. Coumba Diawara, the Malian businesswoman and entrepreneur who started Thaïlande Deni.": "Découvrez Mme Coumba Diawara, femme d'affaires et entrepreneure malienne à l'origine de Thaïlande Deni.",
+  "Meet Miss Coumba Diawara, the Malian businesswoman and entrepreneur who started Thaïlande Deni.": "Découvrez Mlle Coumba Diawara, femme d'affaires et entrepreneure malienne à l'origine de Thaïlande Deni.",
   "Discover Thai beauty, skincare and wellness at Thaïlande Deni, founded by Malian entrepreneur Coumba Diawara.": "Découvrez chez Thaïlande Deni une sélection de produits thaïlandais de beauté, de soin et de bien-être, fondée par l'entrepreneure malienne Coumba Diawara.",
-  "Ms. Coumba Diawara, Malian businesswoman and founder of Thaïlande Deni": "Mme Coumba Diawara, femme d'affaires malienne et fondatrice de Thaïlande Deni",
+  "Miss Coumba Diawara, Malian businesswoman and founder of Thaïlande Deni": "Mlle Coumba Diawara, femme d'affaires malienne et fondatrice de Thaïlande Deni",
   "Shop Thai beauty & wellness — Thaïlande Deni": "Beauté et bien-être thaïlandais — Thaïlande Deni",
   "Order request: Thaïlande Deni": "Demande de commande : Thaïlande Deni",
   "Hello, I would like to request an order.": "Bonjour, je souhaite passer une commande.",
@@ -414,7 +420,7 @@ const FRENCH = {
   "THE WOMAN BEHIND THE BRAND": "LA FEMME DERRIÈRE LA MARQUE",
   "Founded with care": "Une marque créée avec soin",
   "by Coumba Diawara.": "par Coumba Diawara.",
-  "Thaïlande Deni was started by Ms. Coumba Diawara, a Malian businesswoman and entrepreneur. Her vision brings Thai beauty and wellness discoveries to customers in Mali and beyond.": "Thaïlande Deni a été créée par Mme Coumba Diawara, femme d'affaires et entrepreneure malienne. Sa vision fait découvrir des produits thaïlandais de beauté et de bien-être aux clients du Mali et d'ailleurs.",
+  "Thaïlande Deni was started by Miss Coumba Diawara, a Malian businesswoman and entrepreneur. Her vision brings Thai beauty and wellness discoveries to customers in Mali and beyond.": "Thaïlande Deni a été créée par Mlle Coumba Diawara, femme d'affaires et entrepreneure malienne. Sa vision fait découvrir des produits thaïlandais de beauté et de bien-être aux clients du Mali et d'ailleurs.",
   "Meet the founder": "Rencontrer la fondatrice",
   "Thaïlande Deni Huile Jaune, a traditional massage oil made in Thailand": "Huile Jaune de Thaïlande Deni, une huile de massage traditionnelle fabriquée en Thaïlande",
   "Thaïlande Deni Huile Jaune label and golden 15 ml bottle": "Étiquette Huile Jaune de Thaïlande Deni et flacon doré de 15 ml",
@@ -674,6 +680,37 @@ function renderShop() {
   `).join("");
 }
 
+function updateHomeCarouselControls() {
+  const track = document.getElementById("home-product-track");
+  if (!track) return;
+  const maxScroll = track.scrollWidth - track.clientWidth;
+  const previous = document.querySelector('[data-carousel-step="-1"]');
+  const next = document.querySelector('[data-carousel-step="1"]');
+  if (previous) previous.disabled = track.scrollLeft <= 4;
+  if (next) next.disabled = track.scrollLeft >= maxScroll - 4;
+}
+
+function renderHomeCarousel() {
+  const track = document.getElementById("home-product-track");
+  if (!track) return;
+  track.innerHTML = PRODUCTS.map((product) => `
+    <article class="home-product-card">
+      <a class="home-product-image" href="product.html?id=${encodeURIComponent(product.id)}" aria-label="View ${product.name}">
+        <img src="${product.image}" alt="${product.name}" loading="lazy">
+      </a>
+      <div class="home-product-info">
+        <p class="eyebrow">${product.category}</p>
+        <h3><a href="product.html?id=${encodeURIComponent(product.id)}">${product.name}</a></h3>
+        <p>${product.description}</p>
+        <strong>${formatPrice(product)}</strong>
+      </div>
+    </article>
+  `).join("");
+  track.addEventListener("scroll", updateHomeCarouselControls, { passive: true });
+  window.addEventListener("resize", updateHomeCarouselControls);
+  updateHomeCarouselControls();
+}
+
 function renderProductDetail() {
   const container = document.getElementById("product-detail-content");
   if (!container) return;
@@ -777,6 +814,18 @@ document.addEventListener("click", (event) => {
 
   const themeButton = target.closest("[data-theme-option]");
   if (themeButton) setTheme(themeButton.dataset.themeOption);
+
+  const carouselButton = target.closest("[data-carousel-step]");
+  if (carouselButton) {
+    const track = document.getElementById("home-product-track");
+    const firstCard = track?.querySelector(".home-product-card");
+    if (track && firstCard) {
+      const gap = Number.parseFloat(getComputedStyle(track).columnGap) || 0;
+      const direction = Number(carouselButton.dataset.carouselStep);
+      const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+      track.scrollBy({ left: direction * (firstCard.getBoundingClientRect().width + gap), behavior });
+    }
+  }
 });
 
 document.getElementById("order-form")?.addEventListener("submit", (event) => {
@@ -835,6 +884,7 @@ document.addEventListener("keydown", (event) => {
 
 updateBagCount();
 renderShop();
+renderHomeCarousel();
 renderProductDetail();
 renderCart();
 applyLanguage();
