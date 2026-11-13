@@ -206,7 +206,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   transition: background .2s ease, color .2s ease, border-color .2s ease;
 }
 .theme-option svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.6; }
-.theme-option[aria-pressed="true"] { border-color: var(--gold); background: var(--green); color: var(--paper); }
 .theme-option:hover { border-color: var(--gold); }
 .theme-option:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 .bag-count {

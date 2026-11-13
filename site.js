@@ -3,8 +3,9 @@ const PRODUCTS = [
     id: "huile-jaune",
     name: "Huile Jaune",
     category: "Body care",
-    description: "Traditional aromatic massage oil · 15 ml",
+    description: "Traditional aromatic massage oil · 15 ml · 20000 XOF",
     image: "IMG_1289.JPG",
+    price: { amount: 20000, currency: "XOF" },
     details: ["A compact massage oil made in Thailand", "Menthol, camphor, borneol, cajeput, clove and eucalyptus oils are listed on the supplied product image"],
     usage: [
       ["Apply a few drops", "Use a small amount on the area you wish to massage, following the product label."],
@@ -17,25 +18,40 @@ const PRODUCTS = [
     id: "madame-heng-hyaloe-kit",
     name: "Madame Heng Hyaloe Hydropower Kit",
     category: "Skincare",
-    description: "Facial soap and hydrating serum set",
+    description: "Facial soap and hydrating serum set · 6500 XOF",
     image: "WhatsApp Image 2026-11-11 at 01.47.05.jpeg",
-    details: ["Hyaloe Hydropower Soap · 100 g", "Hyaloe Hydropower Serum · 30 ml, with hyaluronic acid"],
+    price: { amount: 6500, currency: "XOF" },
+    details: [
+      "Hyaloe Hydropower Soap · 100 g and Hyaloe Hydropower Serum · 30 ml",
+      "The soap is intended to cleanse while helping skin retain moisture; the serum contains hyaluronic acid",
+      "Check the current packaging for the complete ingredient list and product directions",
+    ],
   },
   {
     id: "thailande-deni-lightening-salt-scrub",
     name: "Thaïlande Deni Spa Lightening Salt Scrub",
     category: "Body care",
-    description: "Fruit extract body scrub",
+    description: "Fruit extract body scrub · 10000 XOF",
     image: "lightening-salt-scrub.jpeg",
-    details: ["A salt scrub described as exfoliating and refreshing the skin", "The supplied notes list cantaloupe, carrot, Mahad and mixed fruit extracts"],
+    price: { amount: 10000, currency: "XOF" },
+    details: [
+      "Fine salt provides physical exfoliation to help remove surface buildup and smooth rough-feeling skin",
+      "The supplied notes list cantaloupe, carrot, Mahad, mixed fruit extracts, vitamins C and E, and AHA; check the current label",
+      "Marketed to leave skin feeling refreshed and soft; avoid irritated or freshly shaved skin",
+    ],
   },
   {
     id: "precious-skin-gold-soap",
     name: "Precious Skin 24K Gold Soap",
     category: "Skincare",
-    description: "Face and body cleansing bar",
+    description: "Face and body cleansing bar · 3000 XOF",
     image: "WhatsApp Image 2026-11-11 at 01.52.01 (1).jpeg",
-    details: ["Described as containing 24K gold, collagen, niacinamide, alpha arbutin, vitamin E and glycerin", "Presented as a cleansing bar that helps skin feel soft and hydrated"],
+    price: { amount: 3000, currency: "XOF" },
+    details: [
+      "The supplied notes describe a face and body cleansing bar with 24K gold, collagen, niacinamide, alpha arbutin, vitamin E and glycerin",
+      "Marketed to cleanse while helping skin feel soft and hydrated; cosmetic claims have not been independently verified",
+      "Check the current package for ingredients, directions and suitability",
+    ],
   },
   {
     id: "precious-skin-gold-serum",
@@ -44,23 +60,54 @@ const PRODUCTS = [
     description: "Facial serum · 3500 XOF",
     image: "WhatsApp Image 2026-11-11 at 01.53.34.jpeg",
     price: { amount: 3500, currency: "XOF" },
-    details: ["Marketed for a brighter-looking, more even complexion", "The supplied notes list niacinamide, vitamin C, 24K gold, collagen and Galactomyces ferment"],
+    details: [
+      "50 ml facial serum, according to the supplied product notes",
+      "The supplied notes list niacinamide, vitamin C, 24K gold, collagen and Galactomyces ferment",
+      "Marketed to support a brighter-looking, more even complexion; results vary and claims are not independently verified",
+    ],
+    usage: [
+      ["Cleanse and dry", "Apply to clean, dry skin."],
+      ["Apply a small amount", "Smooth 2 to 3 drops over the face and neck, avoiding the eyes."],
+      ["Follow with moisturizer", "Allow the serum to absorb, then use a moisturizer. Check the package for directions and frequency."],
+    ],
+    safety: "For external use only. Check the current package for ingredients and directions. Patch test before first use, avoid contact with eyes, and discontinue if irritation occurs. Use sunscreen during the day when using products marketed for dark spots.",
   },
   {
     id: "precious-skin-anti-melasma-cream",
     name: "Precious Skin Gold 24K Anti-Melasma Cream",
     category: "Skincare",
-    description: "Facial cream · 15 g",
+    description: "Facial cream · 15 g · 3500 XOF",
     image: "WhatsApp Image 2026-11-11 at 01.52.02.jpeg",
-    details: ["A travel-size facial cream made in Thailand", "The supplied notes list 24K gold, kojic acid dipalmitate, niacinamide and alpha arbutin"],
+    price: { amount: 3500, currency: "XOF" },
+    details: [
+      "A travel-size facial cream made in Thailand",
+      "The supplied notes list 24K gold, kojic acid dipalmitate, niacinamide, alpha arbutin, snail secretion filtrate and Panax ginseng root extract; check the current label",
+      "Marketed for the appearance of dark spots and uneven tone; this cosmetic is not a treatment for melasma",
+    ],
+    usage: [
+      ["Apply to clean skin", "Use a small amount on clean, dry skin, following the package directions."],
+      ["Use sun protection", "If used in the daytime, apply broad-spectrum sunscreen as the final skincare step."],
+    ],
+    safety: "For external use only. Patch test before first use and discontinue if irritation occurs. Follow package directions and avoid combining with strong exfoliants unless advised by a qualified professional. Broad-spectrum SPF 30+ and consistent sun protection are important for managing the appearance of pigmentation.",
   },
   {
     id: "my-bo-herbal-mask-soap",
     name: "My Bo Herbal Mousse Mask Soap",
     category: "Skincare",
-    description: "Thai facial cleansing soap and mask",
+    description: "Thai facial cleansing soap and mask · 2500 XOF",
     image: "WhatsApp Image 2026-11-11 at 02.11.08.jpeg",
-    details: ["Typically listed as 50 g; some versions may differ", "The supplied notes describe a mousse-like lather used with a foaming net"],
+    price: { amount: 2500, currency: "XOF" },
+    details: [
+      "Typically listed as 50 g, though sizes may vary by version",
+      "The supplied notes describe a dense, mousse-like lather made with a foaming net",
+      "Marketed for cleansing and the appearance of blemishes and uneven tone; claims are not independently verified",
+    ],
+    usage: [
+      ["Create a soft lather", "Lather the soap in your hands or with its foaming net."],
+      ["Cleanse gently", "Apply the foam gently to the face, avoiding the eyes."],
+      ["Rinse", "Rinse thoroughly. If using as a mask, follow the package directions and do not leave it on longer than instructed."],
+    ],
+    safety: "For external use only. Avoid contact with eyes and discontinue use if irritation occurs. Follow the directions on the current package; do not use as a mask unless the label instructs you to do so.",
   },
   {
     id: "bear-cuffee-coffee-scrub-soap",
@@ -69,31 +116,102 @@ const PRODUCTS = [
     description: "Coffee exfoliating soap · 60 g · 3500 XOF",
     image: "WhatsApp Image 2026-11-11 at 02.16.30 (1).jpeg",
     price: { amount: 3500, currency: "XOF" },
-    details: ["The supplied notes list roasted coffee, tamarind, honey, coconut oil and turmeric", "A 2-in-1 soap and scrub described for all skin types"],
+    details: [
+      "Typically sold as a 60 g bar",
+      "The supplied notes list roasted coffee, tamarind, honey, coconut oil and turmeric; confirm the current ingredients on the label",
+      "A 2-in-1 cleansing and exfoliating bar marketed to smooth rough-feeling skin and improve the appearance of dullness",
+    ],
+    usage: [
+      ["Wet skin and bar", "Use the bar on wet skin or work it into a lather in your hands."],
+      ["Massage gently", "Apply in light circular motions. Avoid scrubbing hard, especially on sensitive areas."],
+      ["Rinse well", "Rinse thoroughly and follow with moisturizer if needed."],
+    ],
+    safety: "For external use only. Avoid broken or irritated skin and contact with eyes. Patch test before first use and discontinue if irritation occurs.",
+  },
+  {
+    id: "pontina-herbal-soap",
+    name: "Pontina Herbal Soap",
+    category: "Body care",
+    description: "Turmeric-infused Thai herbal soap · Mali 🇲🇱",
+    image: "pontina-herbal-soap.png",
+    price: { amount: 6000, currency: "XOF" },
+    details: [
+      "A Thai herbal cleansing bar featuring turmeric; Pontina formulas may also include botanicals such as ginseng, depending on the variant",
+      "Marketed to cleanse deeply while helping skin feel smoother and nourished",
+      "Turmeric body-care claims include helping pores feel clear and improving the appearance of dullness, dark marks and uneven tone; individual results vary",
+      "Check the current package for the exact ingredients and claims for this variant",
+    ],
+    safety: "For external use only. Check the current package for directions and precautions, and patch test before first use. Avoid contact with eyes and discontinue use if irritation occurs. Skin brightening, acne and other benefit claims have not been independently verified and are not medical advice.",
+  },
+  {
+    id: "pontina-coffee-tamarind-scrub",
+    name: "Pontina Coffee Tamarind Scrub",
+    category: "Body care",
+    description: "Thai coffee and tamarind exfoliating scrub · Mali 🇲🇱",
+    image: "pontina-coffee-tamarind-scrub.png",
+    price: { amount: 6000, currency: "XOF" },
+    details: [
+      "Coffee and tamarind scrub formulated to exfoliate and smooth rough-feeling skin",
+      "Herbal ingredients can vary by bar or package variant; check the current label",
+      "Often used on rough-feeling areas such as elbows, knees and joints",
+      "Marketed to help skin look brighter and smoother; results vary and are not guaranteed",
+    ],
+    usage: [
+      ["Wet your skin", "Use the bar on wet skin in the shower or bath."],
+      ["Massage gently", "Glide the bar over the skin or lather it with a loofah. Avoid scrubbing hard."],
+      ["Rinse thoroughly", "The supplied directions suggest leaving the lather on for 3 to 5 minutes, then rinsing well. Follow the directions on your package."],
+    ],
+    safety: "For external use only. Avoid the face, broken or irritated skin, and contact with eyes. Patch test before first use and discontinue if irritation occurs. Follow the directions and precautions on the current package.",
   },
   {
     id: "araya-moringa-ginger-tea",
     name: "Araya Herb Moringa & Ginger Tea",
     category: "Tea & wellness",
-    description: "Caffeine-free herbal infusion",
+    description: "Caffeine-free herbal infusion · 8500 XOF",
     image: "WhatsApp Image 2026-11-11 at 02.23.41.jpeg",
-    details: ["Combines moringa leaves and ginger", "For ingredients, preparation and precautions, follow the product packaging"],
+    price: { amount: 8500, currency: "XOF" },
+    details: [
+      "A caffeine-free infusion combining moringa leaves and ginger",
+      "Ginger is traditionally enjoyed in warm drinks; wellness effects are not guaranteed",
+      "Brew one tea bag or the package-recommended amount in hot water; steep for the time on the label",
+    ],
+    usage: [
+      ["Add hot water", "Place one tea bag in a cup and pour over hot water."],
+      ["Steep", "Cover and steep for 3 to 5 minutes, or follow the package directions."],
+      ["Enjoy", "Drink warm or chilled. Honey or lemon may be added if desired."],
+    ],
+    safety: "Check the current package for ingredients and directions. The supplied notes advise avoiding moringa tea during pregnancy and consulting a healthcare professional if you take blood-pressure or heart medication. This tea is not a treatment for a medical condition.",
   },
   {
     id: "araya-tea-for-you",
     name: "Araya Tea For You",
     category: "Tea & wellness",
-    description: "Rose-infused Thai herbal tea",
+    description: "Rose-infused Thai herbal tea · 8500 XOF",
     image: "WhatsApp Image 2026-11-11 at 02.32.46.jpeg",
-    details: ["The supplied notes list white kwao krua, sappan wood, Curcuma comosa, safflower, repair grass, shatavari, stevia, chamomile and roselle", "Marketed for women's wellness; health claims have not been independently verified"],
+    price: { amount: 8500, currency: "XOF" },
+    details: [
+      "The supplied notes list white kwao krua, sappan wood, Curcuma comosa, safflower, repair grass, shatavari, stevia, chamomile and roselle",
+      "Marketed for women's wellness; claims about hormones, menstruation, sleep or other health effects have not been independently verified",
+    ],
+    usage: [
+      ["Steep one tea bag", "Add one tea bag to 100–250 ml of hot water, or follow the package directions."],
+      ["Wait and enjoy", "Steep for 2 to 3 minutes, then drink warm or add ice."],
+    ],
+    safety: "Check the current ingredient list and directions. If pregnant, breastfeeding, taking medication, or managing a health condition, consult a qualified healthcare professional before using herbal supplements.",
   },
   {
     id: "lady-finzy",
     name: "LF Lady Finzy",
     category: "Personal care",
-    description: "Intimate-care product",
+    description: "Intimate-care capsules · 8000 XOF",
     image: "WhatsApp Image 2026-11-11 at 02.39.39.jpeg",
-    details: ["The supplied notes describe a serum or vitamin capsule product", "Check the package and consult a qualified health professional before use; no use method is provided here"],
+    price: { amount: 8000, currency: "XOF" },
+    details: [
+      "The supplied notes describe fast-dissolving intimate-care capsules with plant extracts and a strawberry fragrance",
+      "Odor, discharge, tightening and hydration benefits are marketing claims, not verified medical effects",
+      "Confirm the product type and ingredients on the package before use",
+    ],
+    safety: "Do not insert or apply this product unless the package clearly identifies the route and provides appropriate directions. Vaginal discharge or odor can have medical causes; consult a qualified healthcare professional rather than relying on a cosmetic product. Stop use and seek advice if irritation occurs.",
   },
   {
     id: "kyra-alpha-arbutin",
@@ -101,23 +219,132 @@ const PRODUCTS = [
     category: "Skincare",
     description: "Single-use skincare booster capsules",
     image: "WhatsApp Image 2026-11-11 at 02.46.00 (1).jpeg",
-    details: ["Typically 20 capsules per box, 250 mg each, according to the supplied notes", "Check the product packaging for ingredients and directions before mixing with other products"],
+    price: { amount: 10000, currency: "XOF" },
+    details: [
+      "The supplied notes describe 20 single-use capsules per box, typically 250 mg each",
+      "Alpha arbutin, rice ferment, barley grass and allantoin/comfrey extracts are listed in the supplied notes; verify the current label",
+      "Marketed for the appearance of dark spots and uneven tone; cosmetic effects vary and are not guaranteed",
+    ],
+    usage: [
+      ["Check the label", "Follow the package directions and confirm the product is intended to be mixed into another cosmetic."],
+      ["Mix before use", "If the label allows, mix one capsule into a small amount of lotion, cream or serum immediately before application."],
+      ["Patch test", "Test on a small area first and discontinue if irritation occurs."],
+    ],
+    safety: "For topical cosmetic use only if the product label confirms this use. Do not swallow or apply the powder directly unless the package instructs you to. Avoid eyes and irritated skin, and patch test before first use.",
   },
   {
     id: "melasma-breakdown-serum",
     name: "Melasma Breakdown Serum",
     category: "Skincare",
-    description: "Facial serum · commonly listed as 30 or 40 ml",
+    description: "Facial serum · 30–40 ml · 3500 XOF",
     image: "WhatsApp Image 2026-11-11 at 03.04.24.jpeg",
-    details: ["Marketed for the appearance of dark spots and uneven tone", "The supplied notes list ingredients such as glycerin, vitamins C and E, niacinamide, aloe vera and collagen; check the current label"],
+    price: { amount: 3500, currency: "XOF" },
+    details: [
+      "Commonly listed in 30 ml or 40 ml sizes; check the package for the exact volume",
+      "The supplied notes list glycerin, vitamins C and E, niacinamide, aloe vera, collagen and plant extracts; formulations may vary",
+      "Marketed for the appearance of dark spots and uneven tone; it is a cosmetic product, not a medical treatment for melasma",
+    ],
+    usage: [
+      ["Cleanse", "Apply to clean, dry skin."],
+      ["Apply serum", "Smooth a small amount over the face and neck, following the package directions."],
+      ["Moisturize and protect", "Follow with moisturizer. Use broad-spectrum sunscreen during the day."],
+    ],
+    safety: "For external use only. Check the current label for ingredients and directions. Patch test first, avoid the eye area and discontinue if irritation occurs. Use sun protection during the day; seek professional advice for persistent or changing pigmentation.",
+  },
+  {
+    id: "melasma-breakdown-cream",
+    name: "Perfect Skin Lady Melasma Breakdown Cream",
+    category: "Skincare",
+    description: "Night cream · 20 g · 3500 XOF",
+    image: "WhatsApp Image 2026-11-11 at 03.06.19 (1).jpeg",
+    price: { amount: 3500, currency: "XOF" },
+    details: [
+      "A night cream marketed for the appearance of freckles, dark spots and uneven tone",
+      "The supplied notes mention niacinamide, kojic acid, alpha arbutin and vitamin C as common brightening ingredients; check this product's current ingredient label",
+      "A daytime pigmentation-care routine should include broad-spectrum SPF 30+; a tinted sunscreen may also help protect against visible light",
+      "Use with daytime sun protection; no cosmetic cream can guarantee treatment or removal of melasma",
+    ],
+    usage: [
+      ["Apply at night", "Apply a small amount to clean, dry skin, following the directions on the package."],
+      ["Layer carefully", "If tolerated, apply after a treatment serum and follow with moisturizer."],
+      ["Protect during the day", "Use broad-spectrum SPF 30+ each morning and reapply as directed."],
+    ],
+    safety: "For external use only. Check the exact ingredients and directions on the current package; formulations may differ. Patch test first and avoid combining with strong exfoliants or retinoids unless advised by a qualified professional. Stop if irritation occurs. Daily sun protection is important for pigmentation concerns.",
+  },
+  {
+    id: "melasma-breakdown-soap",
+    name: "Perfect Skin Lady Melasma Breakdown Soap",
+    category: "Skincare",
+    description: "Thai cleansing bar · 80 g · 3500 XOF",
+    image: "WhatsApp Image 2026-11-11 at 03.03.19.jpeg",
+    price: { amount: 3500, currency: "XOF" },
+    details: [
+      "An 80 g cleansing bar marketed for dark spots, freckles and uneven-looking tone",
+      "Designed to cleanse and exfoliate surface buildup; claims about fading pigmentation or stimulating collagen are not independently verified",
+      "Check the current package for the ingredient list and directions",
+    ],
+    usage: [
+      ["Wet and lather", "Lather the bar in your hands with water."],
+      ["Cleanse gently", "Apply the lather to face or body without scrubbing hard; avoid the eye area."],
+      ["Rinse thoroughly", "Rinse well and follow with moisturizer. Use only as directed on the package."],
+    ],
+    safety: "For external use only. Avoid the eye area, broken skin and irritated areas. Patch test before first use and discontinue if irritation occurs. Seek professional advice for persistent pigmentation concerns.",
+  },
+  {
+    id: "pothong-green-herbal-balm",
+    name: "PoThong Thai Herbal Green Cooling Massage Balm",
+    category: "Body care",
+    description: "Cooling herbal massage balm · 15 g or 50 g · 5500 XOF",
+    image: "WhatsApp Image 2026-11-11 at 02.50.40 (1).jpeg",
+    price: { amount: 5500, currency: "XOF" },
+    details: [
+      "A traditional Thai green balm, commonly offered in 15 g and 50 g jars; confirm the size available",
+      "The supplied notes list a petrolatum/paraffin base, menthol, camphor, mint, eucalyptus and peppermint oils; check the current label",
+      "Marketed to provide a cooling sensation when massaged onto the skin; relief claims are not independently verified",
+    ],
+    usage: [
+      ["Apply a small amount", "Use a small amount on the desired area of intact skin."],
+      ["Massage gently", "Massage into the skin, following the package directions."],
+      ["Wash hands", "Wash hands after use and avoid touching the eyes or face."],
+    ],
+    safety: "For external use only. Do not swallow or apply inside the nose, near eyes, to mucous membranes, broken skin or under a tight covering. Keep away from children and heat. Stop if irritation occurs and follow all package warnings.",
+  },
+  {
+    id: "jeju-mini-soap",
+    name: "Jeju Mini Soap",
+    category: "Skincare",
+    description: "Mini Thai cleansing bar · 550 XOF",
+    image: "WhatsApp Image 2026-11-11 at 02.00.27.jpeg",
+    price: { amount: 550, currency: "XOF" },
+    details: [
+      "Small individually wrapped bars, commonly around 25–35 g; exact weight and variants may differ",
+      "The supplied notes mention fruit, vitamin, charcoal and other variants; check the available bar's label",
+      "Marketed for cleansing and specific skin concerns depending on variant; benefits are not guaranteed",
+    ],
+    usage: [
+      ["Wet and lather", "Wet the bar and create a lather in your hands."],
+      ["Cleanse gently", "Apply the lather to wet skin and avoid the eyes."],
+      ["Rinse", "Rinse thoroughly and allow the bar to dry between uses."],
+    ],
+    safety: "For external use only. Check the specific variant's ingredients and directions. Avoid contact with eyes and discontinue use if irritation occurs.",
   },
   {
     id: "mikeo-blood-orange-collagen",
     name: "Mikeo Blood Orange Collagen Vitamin C Mix Plus",
     category: "Tea & wellness",
-    description: "Blood orange drink mix",
+    description: "Blood orange collagen and vitamin C drink mix · 20000 XOF",
     image: "WhatsApp Image 2026-11-11 at 03.46.05.jpeg",
-    details: ["The supplied notes describe a vitamin C and collagen drink mix", "Ingredients and sugar content can vary; check the package for current product details"],
+    price: { amount: 20000, currency: "XOF" },
+    details: [
+      "The supplied notes describe a blood-orange drink mix with collagen and 1000 mg vitamin C; confirm the amount on the current label",
+      "Marketed for antioxidant and beauty support; these supplement claims have not been independently verified and it is not a treatment for skin or joint conditions",
+      "Sugar content and ingredients can vary by version; check the package",
+    ],
+    usage: [
+      ["Mix one serving", "Dissolve one packet or the package-recommended serving in cold or room-temperature water."],
+      ["Stir and drink", "Stir or shake until dissolved and use as directed on the label."],
+    ],
+    safety: "Use only as directed on the package. Check for allergens, including collagen source, and consult a qualified healthcare professional before use if pregnant, breastfeeding, taking medication or managing a health condition. Supplements do not replace a balanced diet or medical care.",
   },
   {
     id: "mikeo-gluta-sakura-peach",
@@ -126,7 +353,16 @@ const PRODUCTS = [
     description: "Sugar-free beauty drink mix · 20000 XOF",
     image: "WhatsApp Image 2026-11-11 at 03.50.19 (1).jpeg",
     price: { amount: 20000, currency: "XOF" },
-    details: ["The supplied notes list glutathione, sakura extract, collagen, hyaluronic acid and vitamin C", "Use only as directed on the package; supplement claims are not medical advice"],
+    details: [
+      "The supplied notes list 250 mg L-glutathione, sakura flower extract, fish collagen peptides, hyaluronic acid and vitamin C; verify all amounts and ingredients on the current label",
+      "Marketed as a sugar-free beauty drink for skin radiance and hydration; results are not guaranteed and claims are not medical advice",
+    ],
+    usage: [
+      ["Prepare a glass", "Add 100–120 ml of cold or room-temperature water, or follow the package directions."],
+      ["Mix one sachet", "Pour in one sachet and stir for 10 to 15 seconds until dissolved."],
+      ["Drink promptly", "Consume after mixing and use no more often than directed on the label."],
+    ],
+    safety: "Use only as directed on the package. Check for fish or other allergens and consult a qualified healthcare professional before use if pregnant, breastfeeding, taking medication or managing a health condition. Supplement and skin-brightening claims have not been independently verified.",
   },
   {
     id: "mikeo-gluta-tomato",
@@ -135,16 +371,37 @@ const PRODUCTS = [
     description: "Tomato drink mix · 20000 XOF",
     image: "WhatsApp Image 2026-11-11 at 03.53.38.jpeg",
     price: { amount: 20000, currency: "XOF" },
-    details: ["The supplied notes list glutathione, tomato extract, lycopene, acerola cherry and vitamin C", "Use only as directed on the package; supplement claims are not medical advice"],
+    details: [
+      "The supplied notes list L-glutathione, tomato extract/lycopene, acerola cherry and vitamin C; confirm the ingredient amounts and sugar content on the current label",
+      "The supplied notes describe a zero-added-sugar formula; check the current package to confirm",
+      "Marketed for antioxidant support and skin radiance; claims about acne, inflammation, melasma or UV protection have not been independently verified",
+      "A drink supplement does not replace sunscreen or treatment recommended by a healthcare professional",
+    ],
+    usage: [
+      ["Add one sachet", "Empty one sachet into a glass."],
+      ["Add a drink", "Add water or another beverage as directed on the package."],
+      ["Stir and consume", "Stir until dissolved and use only as directed on the label."],
+    ],
+    safety: "Use only as directed on the package. Check ingredients and consult a qualified healthcare professional before use if pregnant, breastfeeding, taking medication or managing a health condition. Do not rely on supplements for UV protection; use appropriate sunscreen and protective clothing.",
   },
   {
     id: "mikeo-fiber-xs",
     name: "Mikeo Fiber XS",
     category: "Tea & wellness",
-    description: "Fiber drink mix · 30 sachets · 20000 XOF",
+    description: "Sugar-free fiber drink mix · 30 sachets · 20000 XOF",
     image: "WhatsApp Image 2026-11-11 at 04.00.19.jpeg",
     price: { amount: 20000, currency: "XOF" },
-    details: ["Flavors listed in the supplied notes: Green Apple and 7-Berry", "The notes list fiber, prebiotics and probiotics; mix and use only as directed on the package"],
+    details: [
+      "Powdered drink mix in a 30-sachet box; flavors listed are Green Apple and 7-Berry (Mixed Berry)",
+      "The supplied notes list dietary fiber such as psyllium and chicory-root fiber, prebiotics (FOS/inulin), Bacillus coagulans, green tea, cactus and white kidney bean; formulations may vary",
+      "Marketed to support digestion and satiety; constipation and weight-management claims have not been independently verified",
+    ],
+    usage: [
+      ["Mix one sachet", "Stir one sachet into water, following the mixing instructions on the label."],
+      ["Drink as directed", "The supplied notes suggest once daily, often in the evening. Do not exceed the package directions."],
+      ["Stay hydrated", "Drink adequate water and maintain a balanced diet."],
+    ],
+    safety: "Use only as directed on the package and drink sufficient water. Fiber supplements may affect medication absorption; ask a healthcare professional about timing if you take medicines. Seek medical advice for ongoing constipation or digestive symptoms. Weight-management and digestive claims have not been independently verified.",
   },
 ];
 
@@ -170,10 +427,9 @@ const FRENCH = {
   "Switch language to English": "Passer le site en anglais",
   "Switch language to French": "Passer le site en français",
   Theme: "Thème",
-  "Botanical theme": "Thème botanique",
-  "Saffron theme": "Thème safran",
-  "Lotus theme": "Thème lotus",
-  "Choose a theme": "Choisir un thème",
+  "Switch to botanical theme": "Passer au thème botanique",
+  "Switch to saffron theme": "Passer au thème safran",
+  "Switch to lotus theme": "Passer au thème lotus",
   "REVIEWS — MOCKUP": "AVIS — MAQUETTE",
   "Kind words,": "De jolis mots,",
   "in the making.": "à venir.",
@@ -435,8 +691,24 @@ let currentLanguage = localStorage.getItem(LANGUAGE_KEY) === LANGUAGE.en ? LANGU
 let currentTheme = THEMES.includes(localStorage.getItem(THEME_KEY)) ? localStorage.getItem(THEME_KEY) : THEMES[0];
 document.documentElement.dataset.theme = currentTheme;
 
+const THEME_ICONS = {
+  botanical: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 4.5C11 4.5 5 7.5 5 13a5 5 0 0 0 5 5c5.5 0 8.5-6 9.5-13.5Z"/><path d="M4 21c3-5 7-8 12-11"/></svg>',
+  saffron: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3m0 14v3M4.93 4.93l2.12 2.12m9.9 9.9 2.12 2.12M2 12h3m14 0h3M4.93 19.07l2.12-2.12m9.9-9.9 2.12-2.12"/></svg>',
+  lotus: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20c-4-2-6-5-6-9 3 0 5 2 6 5 1-3 3-5 6-5 0 4-2 7-6 9Z"/><path d="M12 16c-3-3-4-6-2-10 2 2 3 4 2 7 1-3 2-5 4-7 2 4 1 7-2 10M4 18c2 0 4 0 6 2m10-2c-2 0-4 0-6 2"/></svg>',
+};
+
 function translate(value) {
   return currentLanguage === LANGUAGE.fr ? (FRENCH[value] ?? value) : value;
+}
+
+function updateThemeControl() {
+  const button = document.querySelector("[data-theme-toggle]");
+  if (!button) return;
+  const nextTheme = THEMES[(THEMES.indexOf(currentTheme) + 1) % THEMES.length];
+  const label = `Switch to ${nextTheme} theme`;
+  button.innerHTML = THEME_ICONS[currentTheme];
+  button.setAttribute("aria-label", translate(label));
+  button.setAttribute("title", translate(label));
 }
 
 function applyLanguage() {
@@ -482,12 +754,7 @@ function applyLanguage() {
     toggle.setAttribute("aria-label", translate(currentLanguage === LANGUAGE.fr ? "Switch language to English" : "Switch language to French"));
     toggle.setAttribute("title", translate(currentLanguage === LANGUAGE.fr ? "Switch language to English" : "Switch language to French"));
   }
-  document.querySelectorAll("[data-theme-option]").forEach((button) => {
-    const themeLabel = `${button.dataset.themeOption[0].toUpperCase()}${button.dataset.themeOption.slice(1)} theme`;
-    button.setAttribute("aria-label", translate(themeLabel));
-    button.setAttribute("title", translate(themeLabel));
-    button.setAttribute("aria-pressed", String(button.dataset.themeOption === currentTheme));
-  });
+  updateThemeControl();
 }
 
 function setLanguage(language) {
@@ -501,10 +768,7 @@ function setTheme(theme) {
   currentTheme = theme;
   localStorage.setItem(THEME_KEY, currentTheme);
   document.documentElement.dataset.theme = currentTheme;
-  document.querySelectorAll("[data-theme-option]").forEach((button) => {
-    const selected = button.dataset.themeOption === currentTheme;
-    button.setAttribute("aria-pressed", String(selected));
-  });
+  updateThemeControl();
 }
 
 function formatPrice(product) {
@@ -522,11 +786,9 @@ const headerMarkup = `
         <a href="shop.html" ${page === "shop" || page === "product" ? 'aria-current="page"' : ""}>Shop</a>
         <a href="story.html" ${page === "story" ? 'aria-current="page"' : ""}>Our story</a>
         <a href="contact.html" ${page === "contact" ? 'aria-current="page"' : ""}>Contact</a>
-        <div class="theme-control" role="group" aria-label="Choose a theme">
+        <div class="theme-control">
           <span class="theme-control-label">Theme</span>
-          <button class="theme-option" type="button" data-theme-option="botanical" aria-label="Botanical theme" title="Botanical theme" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 4.5C11 4.5 5 7.5 5 13a5 5 0 0 0 5 5c5.5 0 8.5-6 9.5-13.5Z"/><path d="M4 21c3-5 7-8 12-11"/></svg></button>
-          <button class="theme-option" type="button" data-theme-option="saffron" aria-label="Saffron theme" title="Saffron theme" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3m0 14v3M4.93 4.93l2.12 2.12m9.9 9.9 2.12 2.12M2 12h3m14 0h3M4.93 19.07l2.12-2.12m9.9-9.9 2.12-2.12"/></svg></button>
-          <button class="theme-option" type="button" data-theme-option="lotus" aria-label="Lotus theme" title="Lotus theme" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20c-4-2-6-5-6-9 3 0 5 2 6 5 1-3 3-5 6-5 0 4-2 7-6 9Z"/><path d="M12 16c-3-3-4-6-2-10 2 2 3 4 2 7 1-3 2-5 4-7 2 4 1 7-2 10M4 18c2 0 4 0 6 2m10-2c-2 0-4 0-6 2"/></svg></button>
+          <button class="theme-option" type="button" data-theme-toggle aria-label="Switch to saffron theme" title="Switch to saffron theme"></button>
         </div>
       </nav>
       <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language to English" title="Switch language to English">EN</button>
@@ -812,8 +1074,10 @@ document.addEventListener("click", (event) => {
     setLanguage(currentLanguage === LANGUAGE.fr ? LANGUAGE.en : LANGUAGE.fr);
   }
 
-  const themeButton = target.closest("[data-theme-option]");
-  if (themeButton) setTheme(themeButton.dataset.themeOption);
+  if (target.closest("[data-theme-toggle]")) {
+    const nextTheme = THEMES[(THEMES.indexOf(currentTheme) + 1) % THEMES.length];
+    setTheme(nextTheme);
+  }
 
   const carouselButton = target.closest("[data-carousel-step]");
   if (carouselButton) {
