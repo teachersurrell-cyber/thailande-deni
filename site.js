@@ -180,15 +180,16 @@ const PRODUCTS = [
     name: "Oldrock Anti-Acne Spot Lotion AHA",
     category: "Skincare",
     description: "AHA face lotion · 10 ml · 2500 XOF",
-    image: "assets/products/product-photo-coming-soon.svg",
+    image: "assets/products/oldrock-anti-acne-spot-lotion-aha-01.webp",
+    gallery: ["assets/products/oldrock-anti-acne-spot-lotion-aha-02.webp"],
     price: { amount: 2500, currency: "XOF" },
     details: [
-      "The supplied notes describe a 10 ml Oldrock lotion with glycolic acid (AHA), niacinamide, rosefruit extract and menthol; verify the current formula on the package",
-      "Marketed for uneven-looking texture and the appearance of dark spots; cosmetic results vary",
+      "A 10 ml Old Rock facial spot lotion; the supplied notes list glycolic acid (AHA), niacinamide, Rosa multiflora (rosefruit) extract and menthol; verify the current formula on the package",
+      "Marketed for the appearance of dark spots and post-acne marks; cosmetic results vary and are not guaranteed",
       "Check the current package for the complete ingredient list and directions",
     ],
     usage: [
-      ["Apply as directed", "Use a thin layer on clean skin only as directed on the current package."],
+      ["Apply a thin layer", "Apply to clean facial skin or targeted areas only as directed on the current package."],
       ["Use sun protection", "Use broad-spectrum sunscreen during the day when using an AHA product."],
     ],
     safety: "For external use only. Patch test first, avoid the eyes and irritated or broken skin, and discontinue if irritation occurs. Glycolic acid may increase sun sensitivity; use sun protection and follow the package directions.",
@@ -494,7 +495,7 @@ const PRODUCTS = [
     name: "Waan Sanaeha",
     category: "Tea & wellness",
     description: "Traditional Thai herbal wellness product · 6500 XOF",
-    image: "assets/products/product-photo-coming-soon.svg",
+    image: "assets/products/waan-sanaeha-01.webp",
     price: { amount: 6500, currency: "XOF" },
     details: [
       "A traditional Thai herbal product; check the current package for its form, ingredients, serving information and intended use",
@@ -508,7 +509,11 @@ const PRODUCTS = [
     name: "Charming Women Tea (Cha Satri)",
     category: "Tea & wellness",
     description: "Thai herbal infusion · 10 sachets · 6500 XOF",
-    image: "assets/products/product-photo-coming-soon.svg",
+    image: "assets/products/charming-women-tea-01.webp",
+    gallery: [
+      "assets/products/charming-women-tea-02.webp",
+      "assets/products/charming-women-tea-03.webp",
+    ],
     price: { amount: 6500, currency: "XOF" },
     details: [
       "The supplied notes describe a box of 10 herbal tea sachets; check the current package for ingredients and serving instructions",
@@ -814,9 +819,9 @@ const PRODUCTS = [
     name: "Perfect Skin Lady Kojie Acid Skin Whitening X10 Serum",
     category: "Skincare",
     description: "Facial serum · 40 ml · 8000 XOF",
-    image: "assets/products/kojic-acid-face-care-01.webp",
+    image: "assets/products/kojie-acid-x10-serum-01.webp",
     price: { amount: 8000, currency: "XOF" },
-    gallery: ["assets/products/kojic-acid-face-care-02.webp"],
+    gallery: ["assets/products/kojie-acid-x10-serum-02.webp"],
     details: [
       "40 ml lightweight facial serum, according to the supplied product notes",
       "The supplied notes list kojic acid, glutathione, niacinamide, and ascorbic acid (vitamin C); verify the current ingredient label",
@@ -830,32 +835,16 @@ const PRODUCTS = [
     safety: "For external use only. Patch test before first use, avoid the eyes and irritated or broken skin, and discontinue if irritation occurs. Follow the package frequency and use sun protection during the day.",
   },
   {
-    id: "alpha3-arbutin-serum",
-    name: "Alpha3 Arbutin Serum",
-    category: "Skincare",
-    description: "Facial serum",
-    image: "assets/products/alpha3-arbutin-serum-01.webp",
-    gallery: [
-      "assets/products/alpha3-arbutin-serum-02.webp",
-      "assets/products/alpha3-arbutin-serum-03.webp",
-    ],
-    details: [
-      "The supplied product images identify this as an Alpha3 Arbutin serum",
-      "Check the current package for the full ingredient list, size, and directions",
-      "Marketed for a brighter-looking, more even complexion; cosmetic results vary",
-    ],
-    safety: "For external use only if confirmed by the product label. Patch test before first use, avoid the eyes and irritated skin, and discontinue if irritation occurs. Use sun protection during the day.",
-  },
-  {
     id: "gluta-milk",
     name: "Gluta Milk",
     category: "Tea & wellness",
-    description: "Beauty drink mix",
-    image: "assets/products/gluta-milk-01.webp",
+    description: "Beauty drink mix · 10000 XOF",
+    image: "assets/products/gluta-milk-04.webp",
     gallery: [
       "assets/products/gluta-milk-02.webp",
       "assets/products/gluta-milk-03.webp",
     ],
+    price: { amount: 10000, currency: "XOF" },
     details: [
       "The supplied images show Gluta Milk drink-mix packaging",
       "Check the current label for ingredients, allergens, serving size, and sugar content",
@@ -890,7 +879,8 @@ const PRODUCTS = [
     name: "Abutine 3C3 Super Extra Whitening Lotion",
     category: "Body care",
     description: "Body lotion · 500 ml · 9500 XOF",
-    image: "assets/products/product-photo-coming-soon.svg",
+    image: "assets/products/abutin-3c3-lotion-01.webp",
+    gallery: ["assets/products/abutin-3c3-lotion-02.webp"],
     price: { amount: 9500, currency: "XOF" },
     details: [
       "The supplied notes describe a 500 ml body lotion; verify the size and current formula on the bottle",
@@ -907,17 +897,17 @@ const PRODUCTS = [
     id: "snail-white-gluta-milk-soap",
     name: "Perfect Skin Lady Snail White Gluta Milk Soap",
     category: "Skincare",
-    description: "Cleansing bar · 65 g · 1250 XOF each",
+    description: "Thai cleansing bar · 65 g · 10000 XOF for 8 · 1250 XOF each",
     image: "assets/products/product-photo-coming-soon.svg",
     price: { amount: 1250, currency: "XOF" },
     details: [
-      "65 g cleansing bar; the supplied price is 1,250 XOF per bar or 10,000 XOF for 8 bars",
-      "The supplied notes mention glutathione, snail extract and milk extracts; check the current package for the full ingredients",
-      "Cleansing, moisturizing and brightening descriptions are cosmetic claims and are not guaranteed",
+      "Imported Thai beauty soap, typically sold as a 65 g bar",
+      "The supplied notes mention glutathione, snail mucin/extract and milk extracts; verify the ingredients on the current package",
+      "Marketed to cleanse and leave skin feeling soft and moisturized; brightening and skin-texture claims are cosmetic and not guaranteed",
     ],
     usage: [
-      ["Wet and lather", "Wet the skin and work the soap into a lather in your hands or with a clean foaming net."],
-      ["Cleanse gently", "Massage the foam gently over face or body, avoiding the eyes, then rinse thoroughly."],
+      ["Wet and lather", "Wet skin with warm water, then lather the soap in your hands or with a clean foaming net."],
+      ["Cleanse gently", "Massage the foam over face or body in gentle circular motions, avoiding the eyes, then rinse thoroughly."],
     ],
     safety: "For external use only. Patch test first, avoid the eyes and irritated skin, and discontinue if irritation occurs. Follow the directions on the current package.",
   },
@@ -926,24 +916,29 @@ const PRODUCTS = [
     name: "Jamsai Blood Orange C",
     category: "Tea & wellness",
     description: "Blood orange and vitamin C drink mix · 30 sachets · 20000 XOF",
-    image: "assets/products/product-photo-coming-soon.svg",
+    image: "assets/products/jamsai-blood-orange-c-01.webp",
+    gallery: ["assets/products/jamsai-blood-orange-c-02.webp"],
     price: { amount: 20000, currency: "XOF" },
     details: [
       "Powdered dietary supplement, typically sold in a 30-sachet box; check the current package for serving size and nutrition details",
-      "The supplied notes list vitamin C, red orange complex, elderberry, fish collagen, glutathione, CoQ10 and tomato extract; verify the ingredients and amounts on the label",
-      "Sugar-free and other wellness claims should be confirmed on the current package; supplement claims are not medical advice",
+      "The supplied notes list 1,000 mg vitamin C, Italian RedOrange complex, elderberry, fish collagen dipeptide, L-glutathione, CoQ10 and tomato extract; verify the ingredients and amounts on the label",
+      "Sugar-free, fat-free and preservative-free claims should be confirmed on the current package; supplement claims are not medical advice",
     ],
     usage: [
-      ["Mix as directed", "Dissolve a sachet in water, following the serving size and directions on the current label."],
+      ["Mix as directed", "Mix with cold water and follow the serving size and directions on the current label; the package may describe multiple sachets per day."],
     ],
-    safety: "Check for fish and other allergens. The supplied notes warn against use by pregnant individuals and children; confirm the current package warnings and consult a qualified healthcare professional if uncertain. Do not exceed the labeled serving.",
+    safety: "Check for fish and other allergens. The supplied notes advise against use during pregnancy and for children; confirm the current package warnings and consult a qualified healthcare professional if uncertain. Do not exceed the labeled serving.",
   },
   {
     id: "clear-nose-moist-skin-barrier-gel",
     name: "Clear Nose Moist Skin Barrier Moisturizing Gel",
     category: "Skincare",
     description: "Facial moisturizing gel · 10 ml · 2000 XOF",
-    image: "assets/products/product-photo-coming-soon.svg",
+    image: "assets/products/clear-nose-moist-skin-barrier-gel-01.webp",
+    gallery: [
+      "assets/products/clear-nose-moist-skin-barrier-gel-02.webp",
+      "assets/products/clear-nose-moist-skin-barrier-gel-03.webp",
+    ],
     price: { amount: 2000, currency: "XOF" },
     details: [
       "10 ml travel-size gel for the face and neck",
@@ -960,7 +955,8 @@ const PRODUCTS = [
     name: "Pro Skin Maryln Vitamin A & E Capsules",
     category: "Skincare",
     description: "Topical face capsules · 3000 XOF",
-    image: "assets/products/product-photo-coming-soon.svg",
+    image: "assets/products/pro-skin-vitamin-a-e-capsules-01.webp",
+    gallery: ["assets/products/pro-skin-vitamin-a-e-capsules-02.webp"],
     price: { amount: 3000, currency: "XOF" },
     details: [
       "Pre-measured capsules containing a topical oil blend described as vitamins A and E; check the current label for ingredients and capsule count",
@@ -995,8 +991,9 @@ const PRODUCTS = [
     id: "bonne-lacticare-lotion",
     name: "A Bonne Lacticare Lotion",
     category: "Body care",
-    description: "Body lotion",
+    description: "Body lotion · 10000 XOF",
     image: "assets/products/bonne-lacticare-lotion-01.webp",
+    price: { amount: 10000, currency: "XOF" },
     details: [
       "The supplied promotional image identifies this as A Bonne Lacticare body lotion",
       "Check the bottle for the current ingredients, size, and directions",
@@ -1172,6 +1169,25 @@ const PRODUCTS = [
     safety: "Use only as directed on the current package. Check for allergens and consult a qualified healthcare professional before use if pregnant, breastfeeding, taking medication, or managing a health condition. Supplements are not a substitute for medical care.",
   },
   {
+    id: "zeoul-wink-collagen-zinc",
+    name: "Zeoul Wink Collagen Zinc",
+    category: "Tea & wellness",
+    description: "Collagen and zinc supplement · 30 sachets · 17500 XOF",
+    image: "assets/products/zeoul-wink-collagen-zinc-01.webp",
+    gallery: [
+      "assets/products/zeoul-wink-collagen-zinc-02.webp",
+      "assets/products/zeoul-wink-collagen-zinc-03.webp",
+    ],
+    price: { amount: 17500, currency: "XOF" },
+    details: [
+      "A powdered dietary supplement sold in a 30-sachet pack; confirm the current serving size and flavors on the package",
+      "The supplied package images list collagen peptides, zinc amino acid chelate, vitamin C, biotin and other vitamins; verify the full ingredients and amounts on the current label",
+      "Marketed for skin, nail and general wellness support; supplement claims are not medical advice and results are not guaranteed",
+    ],
+    usage: [["Mix as directed", "Prepare and take only as directed on the current package; do not exceed the labeled serving."]],
+    safety: "Check for fish and other allergens, including the collagen source. Consult a qualified healthcare professional before use if pregnant, breastfeeding, taking medication, or managing a health condition. Supplements are not a substitute for medical care.",
+  },
+  {
     id: "araya-duo-set",
     name: "ARAYA Duo Set Ceramide Collagen+ & Gluta Strawberry Plus",
     category: "Tea & wellness",
@@ -1197,7 +1213,7 @@ const PRODUCTS = [
 const CART_KEY = "thailand-deni-cart";
 const LANGUAGE_KEY = "thailand-deni-language";
 const THEME_KEY = "thailand-deni-theme";
-const THEMES = ["botanical", "saffron", "lotus"];
+const THEMES = ["botanical", "dark", "saffron", "lotus"];
 const page = document.body.dataset.page;
 const getProduct = (id) => PRODUCTS.find((product) => product.id === id);
 
@@ -1207,6 +1223,9 @@ const FRENCH = {
   "Main navigation": "Navigation principale",
   Home: "Accueil",
   Shop: "Boutique",
+  "Sort products": "Trier les produits",
+  "Catalog order": "Ordre du catalogue",
+  "Alphabetical (A-Z)": "Ordre alphabétique (A-Z)",
   "Our story": "Notre histoire",
   Contact: "Contact",
   Bag: "Panier",
@@ -1217,8 +1236,10 @@ const FRENCH = {
   "Switch language to French": "Passer le site en français",
   Theme: "Thème",
   "Switch to botanical theme": "Passer au thème botanique",
+  "Switch to dark theme": "Passer au thème sombre",
   "Switch to saffron theme": "Passer au thème safran",
   "Switch to lotus theme": "Passer au thème lotus",
+  "Switch to dark theme": "Passer au thème sombre",
   "REVIEWS — MOCKUP": "AVIS — MAQUETTE",
   "Kind words,": "De jolis mots,",
   "in the making.": "à venir.",
@@ -1550,11 +1571,15 @@ const FRENCH = {
 const PRODUCT_FRENCH = {
   "Perfect Skin Lady Alpha Arbutin 3 Plus Serum": "Sérum Perfect Skin Lady Alpha Arbutin 3 Plus",
   "Facial serum · 40 ml · 8000 XOF": "Sérum visage · 40 ml · 8 000 XOF",
+  "AHA face lotion · 10 ml · 2500 XOF": "Lotion visage AHA · 10 ml · 2 500 XOF",
+  "Beauty drink mix · 10000 XOF": "Boisson beauté en poudre · 10 000 XOF",
   "Abutine 3C3 Super Extra Whitening Lotion": "Lotion Abutine 3C3 Super Extra Whitening",
   "Body lotion · 500 ml · 9500 XOF": "Lotion corporelle · 500 ml · 9 500 XOF",
   "Perfect Skin Lady Snail White Gluta Milk Soap": "Savon Perfect Skin Lady Snail White Gluta Milk",
-  "Cleansing bar · 65 g · 1250 XOF each": "Savon nettoyant · 65 g · 1 250 XOF l'unité",
+  "Thai cleansing bar · 65 g · 10000 XOF for 8 · 1250 XOF each": "Savon nettoyant thaïlandais · 65 g · 10 000 XOF les 8 · 1 250 XOF l'unité",
   "Blood orange and vitamin C drink mix · 30 sachets · 20000 XOF": "Boisson en poudre à l'orange sanguine et vitamine C · 30 sachets · 20 000 XOF",
+  "Collagen and zinc supplement · 30 sachets · 17500 XOF": "Complément au collagène et au zinc · 30 sachets · 17 500 XOF",
+  "Body lotion · 10000 XOF": "Lotion pour le corps · 10 000 XOF",
   "Jamsai Blood Orange C": "Jamsai Blood Orange C",
   "Perfect Skin Lady Vitamin E Gold Collagen Soap": "Savon Perfect Skin Lady Vitamin E Gold Collagen",
   "Cleansing bar · 80 g · 2000 XOF": "Savon nettoyant · 80 g · 2 000 XOF",
@@ -1660,6 +1685,29 @@ const PRODUCT_FRENCH = {
   "Apply to clean skin": "Appliquez sur une peau propre",
   "Use a small amount on clean, dry skin, following the package directions.": "Appliquez une petite quantité sur une peau propre et sèche, conformément aux instructions de l'emballage.",
   "Use sun protection": "Protégez votre peau du soleil",
+  "A 10 ml Old Rock facial spot lotion; the supplied notes list glycolic acid (AHA), niacinamide, Rosa multiflora (rosefruit) extract and menthol; verify the current formula on the package": "Lotion ciblée Old Rock pour le visage de 10 ml ; les informations fournies mentionnent de l'acide glycolique (AHA), de la niacinamide, de l'extrait de Rosa multiflora (rosefruit) et du menthol ; vérifiez la formule actuelle sur l'emballage",
+  "Marketed for the appearance of dark spots and post-acne marks; cosmetic results vary and are not guaranteed": "Présenté pour l'apparence des taches pigmentaires et marques post-acné ; les résultats cosmétiques varient et ne sont pas garantis",
+  "Apply to clean facial skin or targeted areas only as directed on the current package.": "Appliquez sur le visage propre ou les zones ciblées uniquement selon les instructions de l'emballage actuel.",
+  "Imported Thai beauty soap, typically sold as a 65 g bar": "Savon de beauté thaïlandais importé, généralement vendu en pain de 65 g",
+  "The supplied notes mention glutathione, snail mucin/extract and milk extracts; verify the ingredients on the current package": "Les informations fournies mentionnent du glutathion, de la mucine/extrait d'escargot et des extraits de lait ; vérifiez les ingrédients sur l'emballage actuel",
+  "Marketed to cleanse and leave skin feeling soft and moisturized; brightening and skin-texture claims are cosmetic and not guaranteed": "Présenté comme nettoyant et laissant la peau douce et hydratée ; les allégations sur l'éclat et la texture de la peau sont cosmétiques et non garanties",
+  "Wet skin with warm water, then lather the soap in your hands or with a clean foaming net.": "Mouillez la peau à l'eau tiède, puis faites mousser le savon entre vos mains ou avec un filet moussant propre.",
+  "Massage the foam over face or body in gentle circular motions, avoiding the eyes, then rinse thoroughly.": "Massez délicatement la mousse sur le visage ou le corps par mouvements circulaires, en évitant les yeux, puis rincez abondamment.",
+  "The supplied notes list 1,000 mg vitamin C, Italian RedOrange complex, elderberry, fish collagen dipeptide, L-glutathione, CoQ10 and tomato extract; verify the ingredients and amounts on the label": "Les informations fournies mentionnent 1 000 mg de vitamine C, un complexe italien RedOrange, du sureau, des dipeptides de collagène de poisson, du L-glutathion, du CoQ10 et de l'extrait de tomate ; vérifiez les ingrédients et les quantités sur l'étiquette",
+  "Sugar-free, fat-free and preservative-free claims should be confirmed on the current package; supplement claims are not medical advice": "Les mentions sans sucre, sans matières grasses et sans conservateurs sont à vérifier sur l'emballage actuel ; les allégations sur les compléments ne constituent pas un avis médical",
+  "Mix with cold water and follow the serving size and directions on the current label; the package may describe multiple sachets per day.": "Mélangez à de l'eau froide et suivez la portion et les instructions de l'étiquette actuelle ; l'emballage peut indiquer plusieurs sachets par jour.",
+  "Check for fish and other allergens. The supplied notes advise against use during pregnancy and for children; confirm the current package warnings and consult a qualified healthcare professional if uncertain. Do not exceed the labeled serving.": "Vérifiez la présence de poisson et d'autres allergènes. Les informations fournies déconseillent ce produit pendant la grossesse et chez les enfants ; vérifiez les avertissements de l'emballage et consultez un professionnel de santé qualifié en cas de doute. Ne dépassez pas la portion indiquée.",
+  "A Bonne Lacticare Lotion": "Lotion A Bonne Lacticare",
+  "Body lotion": "Lotion pour le corps",
+  "The supplied promotional image identifies this as A Bonne Lacticare body lotion": "L'image promotionnelle fournie identifie cette lotion pour le corps comme A Bonne Lacticare",
+  "Check the bottle for the current ingredients, size, and directions": "Consultez le flacon pour connaître les ingrédients, le format et le mode d'emploi actuels",
+  "Cosmetic claims shown in promotional material have not been independently verified": "Les allégations cosmétiques des supports promotionnels n'ont pas été vérifiées de manière indépendante",
+  "For external use only. Patch test first and discontinue if irritation occurs. Avoid contact with eyes and follow the directions on the bottle.": "Usage externe uniquement. Faites un essai préalable et cessez en cas d'irritation. Évitez tout contact avec les yeux et suivez le mode d'emploi du flacon.",
+  "A powdered dietary supplement sold in a 30-sachet pack; confirm the current serving size and flavors on the package": "Complément alimentaire en poudre vendu en boîte de 30 sachets ; vérifiez la portion et les saveurs sur l'emballage actuel",
+  "The supplied package images list collagen peptides, zinc amino acid chelate, vitamin C, biotin and other vitamins; verify the full ingredients and amounts on the current label": "Les images de l'emballage fournies mentionnent des peptides de collagène, du chélate d'acides aminés de zinc, de la vitamine C, de la biotine et d'autres vitamines ; vérifiez la liste complète et les quantités sur l'étiquette actuelle",
+  "Marketed for skin, nail and general wellness support; supplement claims are not medical advice and results are not guaranteed": "Présenté pour le bien-être de la peau, des ongles et en général ; les allégations sur les compléments ne constituent pas un avis médical et les résultats ne sont pas garantis",
+  "Prepare and take only as directed on the current package; do not exceed the labeled serving.": "Préparez et prenez uniquement selon les instructions de l'emballage actuel ; ne dépassez pas la portion indiquée.",
+  "Check for fish and other allergens, including the collagen source. Consult a qualified healthcare professional before use if pregnant, breastfeeding, taking medication, or managing a health condition. Supplements are not a substitute for medical care.": "Vérifiez la présence de poisson et d'autres allergènes, notamment la source de collagène. Consultez un professionnel de santé qualifié avant utilisation en cas de grossesse, d'allaitement, de prise de médicaments ou de problème de santé. Les compléments ne remplacent pas les soins médicaux.",
   "If used in the daytime, apply broad-spectrum sunscreen as the final skincare step.": "En journée, terminez votre routine par une protection solaire à large spectre.",
   "For external use only. Patch test before first use and discontinue if irritation occurs. Follow package directions and avoid combining with strong exfoliants unless advised by a qualified professional. Broad-spectrum SPF 30+ and consistent sun protection are important for managing the appearance of pigmentation.": "Usage externe uniquement. Faites un essai sur une petite zone avant la première utilisation et cessez en cas d'irritation. Suivez les instructions de l'emballage et évitez d'associer ce produit à des exfoliants puissants, sauf avis d'un professionnel qualifié. Une protection solaire régulière à large spectre, SPF 30 ou plus, est importante pour limiter l'apparence des taches pigmentaires.",
   "Typically listed as 50 g, though sizes may vary by version": "Généralement annoncé à 50 g, mais le poids peut varier selon la version",
@@ -1850,12 +1898,9 @@ const PRODUCT_FRENCH = {
   "Protect your skin": "Protégez votre peau",
   "Use broad-spectrum sunscreen during the day, especially when using products marketed for uneven tone.": "Utilisez une protection solaire à large spectre le jour, surtout avec les produits présentés pour le teint irrégulier.",
   "For external use only. Patch test before first use, avoid the eyes and irritated or broken skin, and discontinue if irritation occurs. Follow the package frequency and use sun protection during the day.": "Usage externe uniquement. Faites un essai cutané avant la première utilisation, évitez les yeux et les zones irritées ou lésées et cessez en cas d'irritation. Respectez la fréquence indiquée sur l'emballage et protégez-vous du soleil le jour.",
-  "Alpha3 Arbutin Serum": "Sérum Alpha3 Arbutin",
   "Facial serum": "Sérum visage",
-  "The supplied product images identify this as an Alpha3 Arbutin serum": "Les images fournies identifient un sérum Alpha3 Arbutin",
   "Check the current package for the full ingredient list, size, and directions": "Consultez l'emballage actuel pour connaître la liste complète des ingrédients, le format et le mode d'emploi",
   "Marketed for a brighter-looking, more even complexion; cosmetic results vary": "Présenté pour un teint d'apparence plus lumineux et uniforme ; les résultats cosmétiques varient",
-  "For external use only if confirmed by the product label. Patch test before first use, avoid the eyes and irritated skin, and discontinue if irritation occurs. Use sun protection during the day.": "Usage externe uniquement si l'étiquette du produit le confirme. Faites un essai avant la première utilisation, évitez les yeux et les zones irritées et cessez en cas d'irritation. Protégez-vous du soleil pendant la journée.",
   "Gluta Milk": "Gluta Milk",
   "Beauty drink mix": "Boisson beauté en poudre",
   "The supplied images show Gluta Milk drink-mix packaging": "Les images fournies montrent l'emballage d'une boisson en poudre Gluta Milk",
@@ -1930,6 +1975,7 @@ const THEME_ICONS = {
   botanical: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 4.5C11 4.5 5 7.5 5 13a5 5 0 0 0 5 5c5.5 0 8.5-6 9.5-13.5Z"/><path d="M4 21c3-5 7-8 12-11"/></svg>',
   saffron: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3m0 14v3M4.93 4.93l2.12 2.12m9.9 9.9 2.12 2.12M2 12h3m14 0h3M4.93 19.07l2.12-2.12m9.9-9.9 2.12-2.12"/></svg>',
   lotus: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20c-4-2-6-5-6-9 3 0 5 2 6 5 1-3 3-5 6-5 0 4-2 7-6 9Z"/><path d="M12 16c-3-3-4-6-2-10 2 2 3 4 2 7 1-3 2-5 4-7 2 4 1 7-2 10M4 18c2 0 4 0 6 2m10-2c-2 0-4 0-6 2"/></svg>',
+  dark: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"/></svg>',
 };
 
 function translate(value) {
@@ -2001,6 +2047,7 @@ function applyLanguage() {
 function setLanguage(language) {
   currentLanguage = language === LANGUAGE.en ? LANGUAGE.en : LANGUAGE.fr;
   localStorage.setItem(LANGUAGE_KEY, currentLanguage);
+  if (page === "shop") renderShop();
   applyLanguage();
 }
 
@@ -2167,7 +2214,11 @@ function renderCart() {
 function renderShop() {
   const grid = document.getElementById("product-grid");
   if (!grid) return;
-  grid.innerHTML = PRODUCTS.map((product) => `
+  const sortOrder = document.getElementById("product-sort")?.value;
+  const products = sortOrder === "alphabetical"
+    ? [...PRODUCTS].sort((a, b) => translate(a.name).localeCompare(translate(b.name), currentLanguage, { sensitivity: "base" }))
+    : PRODUCTS;
+  grid.innerHTML = products.map((product) => `
     <article class="catalog-card">
       <a class="catalog-card-image${product.id === "huile-jaune" ? " huile-jaune-image" : ""}" href="product.html?id=${encodeURIComponent(product.id)}" aria-label="View ${translate(product.name)}">
         <img src="${product.image}" alt="${translate(product.name)}" loading="lazy">
@@ -2182,6 +2233,11 @@ function renderShop() {
     </article>
   `).join("");
 }
+
+document.getElementById("product-sort")?.addEventListener("change", () => {
+  renderShop();
+  applyLanguage();
+});
 
 function updateHomeCarouselControls() {
   const track = document.getElementById("home-product-track");
