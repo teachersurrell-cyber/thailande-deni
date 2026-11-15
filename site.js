@@ -180,8 +180,8 @@ const PRODUCTS = [
     name: "Oldrock Anti-Acne Spot Lotion AHA",
     category: "Skincare",
     description: "AHA face lotion · 10 ml · 2500 XOF",
-    image: "assets/products/oldrock-anti-acne-spot-lotion-aha-01.webp",
-    gallery: ["assets/products/oldrock-anti-acne-spot-lotion-aha-02.webp"],
+    image: "assets/products/oldrock-anti-acne-spot-lotion-aha-02.webp",
+    gallery: ["assets/products/oldrock-anti-acne-spot-lotion-aha-01.webp"],
     price: { amount: 2500, currency: "XOF" },
     details: [
       "A 10 ml Old Rock facial spot lotion; the supplied notes list glycolic acid (AHA), niacinamide, Rosa multiflora (rosefruit) extract and menthol; verify the current formula on the package",
@@ -898,7 +898,7 @@ const PRODUCTS = [
     name: "Perfect Skin Lady Snail White Gluta Milk Soap",
     category: "Skincare",
     description: "Thai cleansing bar · 65 g · 10000 XOF for 8 · 1250 XOF each",
-    image: "assets/products/product-photo-coming-soon.svg",
+    image: "assets/products/snail-white-gluta-milk-soap-01.webp",
     price: { amount: 1250, currency: "XOF" },
     details: [
       "Imported Thai beauty soap, typically sold as a 65 g bar",
@@ -1213,7 +1213,7 @@ const PRODUCTS = [
 const CART_KEY = "thailand-deni-cart";
 const LANGUAGE_KEY = "thailand-deni-language";
 const THEME_KEY = "thailand-deni-theme";
-const THEMES = ["botanical", "dark", "saffron", "lotus"];
+const THEMES = ["saffron", "dark", "botanical", "lotus"];
 const page = document.body.dataset.page;
 const getProduct = (id) => PRODUCTS.find((product) => product.id === id);
 
@@ -2103,18 +2103,18 @@ const footerMarkup = `
       <div>
         <p class="footer-heading">Contact details</p>
         <div class="footer-links">
-          <a href="https://wa.me/22393243401">WhatsApp orders: +223 93 24 34 01</a>
-          <a href="mailto:info@thailandedeni.com">info@thailandedeni.com</a>
-          <span>Bamako, Mali</span>
+          <a href="https://wa.me/22393243401"><svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 11.6a8 8 0 0 1-11.8 7L4 20l1.4-4A8 8 0 1 1 20 11.6Z"/><path d="M9 8.5c.5 2.5 2 4 4.5 4.5l1-1 2 1c-.2 1.4-1.2 2.2-2.7 2-3.4-.5-5.8-2.9-6.3-6.3-.2-1.5.6-2.5 2-2.7l1 2-1.5 1.5Z"/></svg><span>WhatsApp orders: +223 93 24 34 01</span></a>
+          <a href="mailto:info@thailandedeni.com"><svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m4 7 8 6 8-6"/></svg><span>info@thailandedeni.com</span></a>
+          <span class="footer-contact-location"><svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.3"/></svg><span>Bamako, Mali</span></span>
         </div>
       </div>
       <div>
         <p class="footer-heading">Social media</p>
         <div class="footer-links social-placeholders">
-          <span>Instagram <small>Coming soon</small></span>
-          <span>TikTok <small>Coming soon</small></span>
-          <span>Facebook <small>Coming soon</small></span>
-          <span>Threads <small>Coming soon</small></span>
+          <span><svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="footer-icon-dot" cx="17.7" cy="6.5" r="1"/></svg><span>Instagram</span><small>Coming soon</small></span>
+          <span><svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 4v10.5a3.5 3.5 0 1 1-3-3.46v3.1a.6.6 0 1 0 .8.57V4h3c.4 1.8 1.5 2.9 3.2 3.2v3.1c-1.5-.2-2.8-.8-4-1.8"/></svg><span>TikTok</span><small>Coming soon</small></span>
+          <span><svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.2 21v-8h2.7l.4-3.1h-3.1V8c0-.9.3-1.5 1.6-1.5h1.7V3.7c-.8-.1-1.7-.2-2.5-.2-2.5 0-4.2 1.5-4.2 4.3V10H8v3h2.8v8"/></svg><span>Facebook</span><small>Coming soon</small></span>
+          <span><svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 12a7 7 0 1 1-2-4.9"/><path d="M19 5v5h-5"/><path d="M12 8.5c-2 0-3.1 1.2-3.1 3.5s1.1 3.5 3.1 3.5 3.1-1.2 3.1-3.5S14 8.5 12 8.5Z"/></svg><span>Threads</span><small>Coming soon</small></span>
         </div>
       </div>
     </div>

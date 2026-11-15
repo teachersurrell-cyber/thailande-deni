@@ -559,10 +559,14 @@ h1 em, h2 em { color: var(--gold); font-weight: 500; }
 .footer-brand p { max-width: 270px; margin-bottom: 0; color: rgba(255,253,245,.62); font-size: 12px; line-height: 1.8; }
 .footer-heading { margin: 5px 0 14px; color: var(--gold-light); font-size: 9px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
 .footer-links { display: grid; gap: 9px; }
-.footer-links a { color: rgba(255,253,245,.78); font-size: 11px; text-decoration: none; }
+.footer-links a { display: flex; align-items: center; gap: 8px; color: rgba(255,253,245,.78); font-size: 11px; text-decoration: none; }
 .footer-links a:hover { color: var(--gold-light); }
 .footer-links > span { color: rgba(255,253,245,.78); font-size: 11px; }
+.footer-contact-location { display: flex; align-items: center; gap: 8px; }
+.footer-icon { width: 15px; height: 15px; flex: 0 0 15px; fill: none; stroke: var(--gold-light); stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.7; }
+.footer-icon-dot { fill: var(--gold-light); stroke: none; }
 .social-placeholders small { margin-left: 4px; color: rgba(255,253,245,.48); font-size: 9px; }
+.social-placeholders > span { display: flex; align-items: center; gap: 7px; }
 .footer-bottom {
   width: min(1240px, calc(100% - 80px));
   margin: 0 auto;
@@ -590,11 +594,18 @@ h1 em, h2 em { color: var(--gold); font-weight: 500; }
 .shop-toolbar { display: flex; justify-content: flex-end; margin-bottom: 20px; }
 .product-sort-control { display: flex; align-items: center; gap: 12px; color: var(--body-muted); font-size: 11px; }
 .product-sort-control select {
+  appearance: none;
   min-height: 42px;
-  padding: 0 34px 0 12px;
+  padding: 0 40px 0 12px;
   border: 1px solid var(--input-border);
   border-radius: 0;
-  background: var(--paper);
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--body-muted) 50%),
+    linear-gradient(135deg, var(--body-muted) 50%, transparent 50%);
+  background-position: calc(100% - 17px) 50%, calc(100% - 12px) 50%;
+  background-repeat: no-repeat;
+  background-size: 5px 5px;
   color: var(--ink);
 }
 .product-sort-control select:focus { border-color: var(--gold); box-shadow: 0 0 0 2px var(--focus-ring); outline: none; }
