@@ -195,20 +195,6 @@ const PRODUCTS = [
     safety: "For external use only. Patch test first, avoid the eyes and irritated or broken skin, and discontinue if irritation occurs. Glycolic acid may increase sun sensitivity; use sun protection and follow the package directions.",
   },
   {
-    id: "bentley-anti-acne-clear-lotion",
-    name: "Bentley Anti-Acne Clear Lotion BHA",
-    category: "Skincare",
-    description: "BHA clear lotion · 10 ml",
-    image: "assets/products/bentley-anti-acne-clear-lotion-01.webp",
-    details: [
-      "The supplied product image identifies a 10 ml Bentley Anti-Acne Clear Lotion with BHA",
-      "Check the current package for the full ingredient list and directions",
-      "Marketed for blemishes; cosmetic results vary and this product is not a medical acne treatment",
-    ],
-    usage: [["Follow the label", "Apply only as directed on the current package."]],
-    safety: "For external use only. Patch test before first use, avoid the eyes and irritated or broken skin, and discontinue if irritation occurs. Follow the package directions.",
-  },
-  {
     id: "oxecure-sulfur-soap",
     name: "OxeCure Sulfur Soap",
     category: "Skincare",
@@ -253,21 +239,6 @@ const PRODUCTS = [
       ["Moisturize", "Follow with moisturizer if needed."],
     ],
     safety: "For external use only. Patch test before first use, avoid the eyes and irritated or broken skin, and discontinue if irritation occurs.",
-  },
-  {
-    id: "coldpock-anti-acne-spot-lotion",
-    name: "ColdPock Anti-Acne Spot Lotion",
-    category: "Skincare",
-    description: "Targeted spot lotion",
-    image: "assets/products/coldpock-anti-acne-spot-lotion-01.webp",
-    gallery: ["assets/products/coldpock-anti-acne-spot-lotion-02.webp"],
-    details: [
-      "The supplied label image lists niacinamide, glycolic acid, menthol, glycerin, mangosteen peel extract and rosefruit extract",
-      "Check the current package for the complete ingredient list, size and directions",
-      "Marketed for blemishes; cosmetic results vary and this product is not a medical acne treatment",
-    ],
-    usage: [["Follow the label", "Use only as directed on the current package."]],
-    safety: "For external use only. Patch test before first use, avoid the eyes and irritated or broken skin, and discontinue if irritation occurs. Follow the package directions.",
   },
   {
     id: "rojukiss-hydrogel-acne-poreless-mask",
@@ -951,25 +922,6 @@ const PRODUCTS = [
     safety: "For external use only. Patch test before first use, avoid contact with eyes and discontinue if irritation occurs. Check the label for ingredients and suitability, especially if you have sensitive skin.",
   },
   {
-    id: "pro-skin-vitamin-a-e-capsules",
-    name: "Pro Skin Maryln Vitamin A & E Capsules",
-    category: "Skincare",
-    description: "Topical face capsules · 3000 XOF",
-    image: "assets/products/pro-skin-vitamin-a-e-capsules-01.webp",
-    gallery: ["assets/products/pro-skin-vitamin-a-e-capsules-02.webp"],
-    price: { amount: 3000, currency: "XOF" },
-    details: [
-      "Pre-measured capsules containing a topical oil blend described as vitamins A and E; check the current label for ingredients and capsule count",
-      "Marketed to moisturize and soften the appearance of fine lines and blemishes; cosmetic results vary and are not guaranteed",
-      "The supplied notes describe the product as fragrance-free; confirm this on the package",
-    ],
-    usage: [
-      ["Open one capsule", "Twist the tab to open one capsule and squeeze the contents onto clean fingertips."],
-      ["Smooth onto skin", "Gently apply over the face and neck, following the package directions."],
-    ],
-    safety: "For external use only. Do not swallow. Patch test before first use, avoid the eyes and discontinue if irritation occurs. Use only as directed on the current package.",
-  },
-  {
     id: "vitamin-e-gold-soap",
     name: "Perfect Skin Lady Vitamin E Gold Collagen Soap",
     category: "Skincare",
@@ -1102,6 +1054,7 @@ const PRODUCTS = [
     category: "Tea & wellness",
     description: "Gluta capsule supplement",
     image: "assets/products/r-skin-gluta-capsules-01.webp",
+    price: { amount: 3500, currency: "XOF" },
     gallery: [
       "assets/products/r-skin-gluta-capsules-02.webp",
       "assets/products/r-skin-gluta-capsules-03.webp",
