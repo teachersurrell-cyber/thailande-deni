@@ -3,9 +3,9 @@ const PRODUCTS = [
     id: "huile-jaune",
     name: "Huile Jaune",
     category: "Body care",
-    description: "Traditional aromatic massage oil · 15 ml · 20000 XOF",
+    description: "Traditional aromatic massage oil · 15 ml · 10000 XOF",
     image: "IMG_1289.JPG",
-    price: { amount: 20000, currency: "XOF" },
+    price: { amount: 10000, currency: "XOF" },
     details: ["A compact massage oil made in Thailand", "Menthol, camphor, borneol, cajeput, clove and eucalyptus oils are listed on the supplied product image"],
     usage: [
       ["Apply a few drops", "Use a small amount on the area you wish to massage, following the product label."],
